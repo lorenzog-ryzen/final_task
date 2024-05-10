@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -58,7 +58,6 @@
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'Estratos';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -166,14 +165,21 @@
     <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
    </button>
  `);
-</script></div>
+ </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to your Jupyter Book
+                </a>
+            </li>
+        </ul>
         <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Geo_datos.html">Geodatos</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Estratos.html">Estratos</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tarea_iteractiva.html">Tarea iteractiva</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
 </ul>
 
     </div>
@@ -505,23 +511,23 @@ document.write(`
 <div class="cell_output docutils container">
 <div class="output text_html">
 <style>
-  #altair-viz-75db96f2907f419a84a11db89a862019.vega-embed {
+  #altair-viz-ab4b666da1794c48b41933d4acec738b.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-75db96f2907f419a84a11db89a862019.vega-embed details,
-  #altair-viz-75db96f2907f419a84a11db89a862019.vega-embed details summary {
+  #altair-viz-ab4b666da1794c48b41933d4acec738b.vega-embed details,
+  #altair-viz-ab4b666da1794c48b41933d4acec738b.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-75db96f2907f419a84a11db89a862019"></div>
+<div id="altair-viz-ab4b666da1794c48b41933d4acec738b"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-75db96f2907f419a84a11db89a862019") {
-      outputDiv = document.getElementById("altair-viz-75db96f2907f419a84a11db89a862019");
+    if (outputDiv.id !== "altair-viz-ab4b666da1794c48b41933d4acec738b") {
+      outputDiv = document.getElementById("altair-viz-ab4b666da1794c48b41933d4acec738b");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -591,23 +597,23 @@ Ademas, vemos la distribucion de cada numero de aplicacion en las categorias por
 <div class="cell_output docutils container">
 <div class="output text_html">
 <style>
-  #altair-viz-abe89ec3394b4ff4aacd756ab07436fc.vega-embed {
+  #altair-viz-a83988e67f474031863bdeccb3b5a7f7.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-abe89ec3394b4ff4aacd756ab07436fc.vega-embed details,
-  #altair-viz-abe89ec3394b4ff4aacd756ab07436fc.vega-embed details summary {
+  #altair-viz-a83988e67f474031863bdeccb3b5a7f7.vega-embed details,
+  #altair-viz-a83988e67f474031863bdeccb3b5a7f7.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-abe89ec3394b4ff4aacd756ab07436fc"></div>
+<div id="altair-viz-a83988e67f474031863bdeccb3b5a7f7"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-abe89ec3394b4ff4aacd756ab07436fc") {
-      outputDiv = document.getElementById("altair-viz-abe89ec3394b4ff4aacd756ab07436fc");
+    if (outputDiv.id !== "altair-viz-a83988e67f474031863bdeccb3b5a7f7") {
+      outputDiv = document.getElementById("altair-viz-a83988e67f474031863bdeccb3b5a7f7");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -668,23 +674,23 @@ mayoria de categorias, se ve un aumento en la cantidad de records, despues de 3.
 <div class="cell_output docutils container">
 <div class="output text_html">
 <style>
-  #altair-viz-df74438aa5ed475fa353150b0c664d83.vega-embed {
+  #altair-viz-3df861d84b3e43d59df1f4064b2fb98e.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-df74438aa5ed475fa353150b0c664d83.vega-embed details,
-  #altair-viz-df74438aa5ed475fa353150b0c664d83.vega-embed details summary {
+  #altair-viz-3df861d84b3e43d59df1f4064b2fb98e.vega-embed details,
+  #altair-viz-3df861d84b3e43d59df1f4064b2fb98e.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-df74438aa5ed475fa353150b0c664d83"></div>
+<div id="altair-viz-3df861d84b3e43d59df1f4064b2fb98e"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-df74438aa5ed475fa353150b0c664d83") {
-      outputDiv = document.getElementById("altair-viz-df74438aa5ed475fa353150b0c664d83");
+    if (outputDiv.id !== "altair-viz-3df861d84b3e43d59df1f4064b2fb98e") {
+      outputDiv = document.getElementById("altair-viz-3df861d84b3e43d59df1f4064b2fb98e");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
